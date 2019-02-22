@@ -5,7 +5,6 @@ class Pangram
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
-System.out.println("enter the string:");
 String s=sc.nextLine();
 if(  (s.contains("a")||s.contains("A")) &&(s.contains("b")||s.contains("B")) && (s.contains("c")||s.contains("C")) &&
 
