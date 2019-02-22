@@ -8,7 +8,7 @@ Scanner sc=new Scanner(System.in);
 int a=sc.nextInt();
 int b=sc.nextInt();
 int c=0;
-if(a>b)
+if(a>=b)
 {
 while(a>=b)
 {
