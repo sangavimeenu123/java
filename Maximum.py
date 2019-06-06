@@ -1,2 +1,3 @@
-a=list(map(int,input().split()))
-print(max(a))
+X=list(map(int,input().split()))
+Y=max(X)
+print(Y)
