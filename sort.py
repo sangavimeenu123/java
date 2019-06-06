@@ -3,4 +3,5 @@ a=[]
 for i in range(0,N):
              b=int(input())
              a.append(b)
-print(sorted(a))
+c=sorted(a)
+print(*c)
