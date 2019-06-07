@@ -1,6 +1,10 @@
 X=int(input())
 f=1
-for i in range(1,X+1):
-      f=f*i
-      i=i+1
-print(f)
+i=1
+if(X!=0):
+      while(X!=i):
+            f=f*i
+            i=i+1
+      print(f*X)
+else:
+      print("1")
