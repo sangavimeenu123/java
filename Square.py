@@ -1,0 +1,12 @@
+X,Y=map(int,input().split())
+M,N=map(int,input().split())
+C,D=map(int,input().split())
+G,H=map(int,input().split())
+W1=N-Y
+W2=D-H
+W3=C-M
+W4=G-X
+if(W1==W2==W3==W4):
+        print("yes")
+else:
+        print("no")
