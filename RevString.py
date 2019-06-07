@@ -1,2 +1,3 @@
-X,Y=input().split()
-print(X[::-1],Y[::-1])
+X=input().split()
+for i in range(0,len(X)):
+      print(X[i][::-1],end=" ")
